@@ -1,59 +1,93 @@
 body {
+  background-color: rgb(245, 245, 245);
   font-family: Arial, Helvetica, sans-serif;
 }
-header {
-  text-align: center;
-}
 header h1 {
-  background-color: #337ab7;
+  background-color: rgb(52, 152, 219);
   color: white;
-  padding: 20px;
-  margin: -20px;
-}
-header h4 {
-  margin-top: 32px;
-  color: cornflowerblue;
-}
-header p {
-  margin-top: -10px;
-  font-size: small;
-  color: cadetblue;
-}
-label {
   text-align: center;
-  font-weight: bolder;
+  margin: -10px;
+  padding: 30px;
 }
-.inputaSection {
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-}
-#squareSide {
-  margin-top: 8px;
-  outline: none;
-  border-radius: 5px;
-  border: solid #000000;
-  padding: 7px;
-}
-#squareSide:focus {
-  border: solid #337ab7;
-}
-.button {
+.home {
+  border: 1px solid black;
+  margin-top: 30px;
   text-align: center;
+  height: fit-content;
+  background-color: white;
+}
+h2 {
+  font-size: 2rem;
+  font-style: bold;
+}
+p {
+  line-height: 0.8em;
 }
 button {
-  background-color: deepskyblue;
+  background-color: rgb(51, 121, 183);
   color: white;
   border: none;
   border-radius: 4px;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+  width: 800px;
+  display: flexbox;
 }
 button:hover {
-  background-color: darkslateblue;
+  background-color: rgb(0, 140, 255);
 }
 button:active {
-  background-color: blueviolet;
+  background-color: rgb(2, 193, 252);
   transform: translateY(2px);
+}
+.inputSection {
+  border: 2px solid rgb(51, 121, 183);
+  margin: 18px;
+}
+.inputSection h3 {
+  background-color: rgb(51, 121, 183);
+  color: white;
+  height: 60px;
+  padding-top: 30px;
+  margin-top: -2px;
+}
+label {
+  text-align: center;
+  font-weight: bolder;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+#squareSide {
+  margin-top: 8px;
+  margin: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 7px;
+}
+#squareSide:focus {
+  border: solid #337ab7;
+}
+#squareSide1 {
+  margin-top: 8px;
+  margin: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 7px;
+}
+#squareSide1:focus {
+  border: solid #337ab7;
+}
+.button1 button {
+  width: 100px;
+  margin-bottom: 60px;
+}
+.rumus p {
+  font-size: large;
+  font-weight: bold;
 }
