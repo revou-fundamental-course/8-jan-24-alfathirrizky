@@ -3,23 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Katik persegi</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <title>KATIK</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <h1>KATIK kalkulator matematik</h1>
-      <h4>Welcome to kalkulator luas dan keliling persegi</h4>
-      <p>web ini digunakan untuk menghitung hasil keliling dan luas persegi</p>
     </header>
-    <div class="inputaSection">
-      <label for="squareSide" id="lblsquareSide">HITUNG LUAS PERSEGI</label>
-      <input type="number" id="squareSide" />
+    <div class="home">
+      <h2>Welcome to Katik</h2>
+      <p>Hai sobat,selamat datang di Katik :)</p>
+      <p>
+        Sebuah web apps sederhanan yang berfungsi untuk menghitung nilai luas
+        dan keliling bangun datar
+      </p>
+      <button>LUAS</button>
+      <br />
+      <button>KELILING</button>
+      <div class="inputSection">
+        <h3>Luas Persegi</h3>
+        <div class="persegi">
+          <img src="persegi.jpg" alt="persegi" />
+        </div>
+        <div class="rumus">
+          <p>Rumus luas persegi yaitu :</p>
+          <p>L = S x S</p>
+        </div>
+        <div class="form">
+          <label for="squareSide" id="lblsquareSide">HITUNG LUAS PERSEGI</label>
+          <input type="number" id="squareSide" />
+        </div>
+        <div class="hasil">
+          <p id="hasil"></p>
+        </div>
+        <div class="button1">
+          <button id="hitung" onclick="hitung()">Hitung</button>
+          <button id="reset" onclick="reset()">Reset</button>
+        </div>
+      </div>
+      <div class="inputSection">
+        <h3>Keliling Persegi</h3>
+        <div class="persegi">
+          <img src="persegi.jpg" alt="persegi" />
+        </div>
+        <div class="rumus">
+          <p>Rumus Keliling persegi yaitu :</p>
+          <p>K = 4 x S</p>
+        </div>
+        <div class="form">
+          <label for="squareSide" id="lblsquareSide1"
+            >HITUNG KELILING PERSEGI</label
+          >
+          <input type="number" id="squareSide1" />
+        </div>
+        <div class="hasil1">
+          <p id="hasil1"></p>
+        </div>
+        <div class="button1">
+          <button id="hitung1" onclick="hitung1()">Hitung</button>
+          <button id="reset1" onclick="reset1()">Reset</button>
+        </div>
+      </div>
     </div>
-    <div class="button">
-      <button id="hitung">Hitung</button>
-      <button id="reset">Reset</button>
-    </div>
-    <script src="script/script.js "></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

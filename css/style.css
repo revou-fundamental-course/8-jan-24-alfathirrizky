@@ -7,6 +7,8 @@ header {
 header h1 {
   background-color: #337ab7;
   color: white;
+  padding: 20px;
+  margin: -20px;
 }
 header h4 {
   margin-top: 32px;
@@ -14,7 +16,7 @@ header h4 {
 }
 header p {
   margin-top: -10px;
-  font-size: x-small;
+  font-size: small;
   color: cadetblue;
 }
 label {
