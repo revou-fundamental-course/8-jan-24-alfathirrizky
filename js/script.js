@@ -14,7 +14,7 @@ function hitung1() {
     var keliling = squareSide1 * squareSide1 * squareSide1 * squareSide1;
     document.getElementById("hasil1").innerHTML = "Luas persegi: " + keliling;
 }
-function reset() {
+function reset1() {
     document.getElementById("squareSide1").value = "";
     document.getElementById("hasil1").innerHTML = "";
 }
